@@ -65,3 +65,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+# Usage:
+# python3 directory_tree_printer.py <directory path> <ignore file path>
