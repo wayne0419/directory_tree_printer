@@ -6,7 +6,7 @@
 *.csproj
 
 # Unity 
-*/Library
+*/Library/*
 */Logs
 */Packages
 */ProjectSettings
@@ -14,7 +14,7 @@
 */UserSettings
 
 # git
-*git*
+*git
 
 
 # Trivial project files
