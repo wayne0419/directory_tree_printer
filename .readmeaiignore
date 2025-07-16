@@ -1,0 +1,29 @@
+# vs code
+*vscode
+
+# C-sharp
+*.sln
+*.csproj
+
+# Unity 
+*/Library
+*/Logs
+*/Packages
+*/ProjectSettings
+*/Temp
+*/UserSettings
+
+# git
+*git*
+
+
+# Trivial project files
+*.asset
+*TextMesh Pro
+*TutorialInfo
+*.meta
+*.bin
+*/Resources
+*.mp4
+*/Plugins
+*/Samples
