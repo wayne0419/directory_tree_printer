@@ -17,7 +17,6 @@ def load_ignore_patterns(ignore_file):
 
 def should_ignore(path, patterns):
     """Decide whether to ignore this file/directory based on patterns"""
-    # only match the basename; can be extended to match full relative path
     name = os.path.basename(path)
     for pat in patterns:
         if fnmatch.fnmatch(path, pat) or fnmatch.fnmatch(name, pat):
@@ -56,14 +55,14 @@ def main():
         sys.exit(1)
 
     patterns = load_ignore_patterns(args.ignore_file)
+    # print the root directory
     root_name = os.path.basename(os.path.abspath(args.directory.rstrip('/')))
-    print(f"└── {root_name}/")
-    tree(args.directory, patterns, prefix='    ')
+    print(f"{root_name}/")
+    # print the tree of its contents
+    tree(args.directory, patterns, prefix='')
 
 if __name__ == '__main__':
     main()
-
-
 
 # Usage:
 # python3 directory_tree_printer.py <directory path> <ignore file path>

@@ -1,3 +1,6 @@
+# mac
+*.DS_Store
+
 # vs code
 *vscode
 
@@ -12,9 +15,18 @@
 */ProjectSettings
 */Temp
 */UserSettings
+*/XR
+*/Settings
+*/Oculus
 
 # git
 *git*
+
+# readmeai
+.readmeaiignore
+
+# license
+LICENSE
 
 
 # Trivial project files
@@ -24,6 +36,23 @@
 *.meta
 *.bin
 */Resources
-*.mp4
 */Plugins
 */Samples
+*/readme*
+*.controller
+*/Banana Man*
+*/RecordedTransforms/*
+*/RecordedPracticeTransforms/*
+*/Foot Magic Mirror/*
+*/Virtual Video Panel/
+*/Virtual Drum/*
+*/Virtual Drum Sheet/*
+*/Virtual Limb Animation/*
+*/Virtual Video Panel/*
+*/Metronome/*
+*/Level Panel Button/*
+square.png
+*/Drum_SFX/*
+*/DrumStickPath/*
+*/Drum Video/*
+*/Drum Sheet/*
